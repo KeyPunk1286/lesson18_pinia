@@ -1,0 +1,83 @@
+.home {
+  padding-top: 40px;
+}
+.home__title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.frieds {
+  padding-top: 40px;
+}
+.frieds__title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.Gifts {
+  padding-top: 40px;
+}
+.Gifts__title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.assignment-gift {
+  padding-top: 40px;
+}
+.assignment-gift__title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.assignment-gift__box {
+  max-width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.assignment-gift__list {
+  padding-top: 30px;
+  max-width: 30%;
+}
+
+.box__button button {
+  border: 1px rgba(0, 0, 0, 0.445) solid;
+  border-radius: 3px;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.friends__title {
+  font-weight: 600;
+}
+.friends__list {
+  padding-top: 10px;
+}
+.friends__list select {
+  border: 1px rgba(0, 0, 0, 0.445) solid;
+  border-radius: 3px;
+  width: 150px;
+}
+
+.gifts__title {
+  font-weight: 600;
+}
+.gifts__list {
+  padding-top: 10px;
+}
+.gifts__list select {
+  border: 1px rgba(0, 0, 0, 0.445) solid;
+  border-radius: 3px;
+  width: 150px;
+}
+
+.list__item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px rgba(0, 0, 0, 0.331) solid;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.list__item button {
+  font-weight: 600;
+}

@@ -1,0 +1,49 @@
+.common-template {
+    &__box {
+    }
+
+    &__add-box {
+        padding-top: 30px;
+        display: flex;
+    }
+}
+.box {
+    &__item {
+        display: flex;
+        max-width: 30%;
+        justify-content: space-between;
+    }
+    &__item:not(:last-of-type) {
+        margin-bottom: 15px;
+    }
+}
+.item {
+    &__name {
+    }
+
+    &__button {
+        font-weight: 600;
+    }
+}
+.add-box {
+    &__label {
+        font-weight: 600;
+        margin-right: 20px;
+    }
+
+    &__input {
+        border: 1px rgba(0, 0, 0, 0.496) solid;
+        border-radius: 3px;
+        margin-right: 15px;
+        padding: 3px;
+    }
+
+    &__button {
+        button {
+            border: 1px rgba(0, 0, 0, 0.496) solid;
+            border-radius: 3px;
+            padding: 5px;
+            font-weight: 600;
+        }
+    }
+}

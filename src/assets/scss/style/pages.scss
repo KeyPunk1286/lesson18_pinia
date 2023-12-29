@@ -1,0 +1,116 @@
+//==================== home =================//
+.home {
+    padding-top: 40px;
+
+    &__title {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    &__info {
+    }
+}
+
+//==================== friends ================//
+.frieds {
+    padding-top: 40px;
+    &__title {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    &__list {
+    }
+}
+
+//===================== gifts ==============//
+.Gifts {
+    padding-top: 40px;
+    &__title {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    &__list {
+    }
+}
+
+//==================== assignments ============//
+.assignment-gift {
+    padding-top: 40px;
+    &__title {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    &__box {
+        max-width: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__list {
+        padding-top: 30px;
+        max-width: 30%;
+    }
+}
+.box {
+    &__friends {
+    }
+
+    &__gifts {
+    }
+
+    &__button {
+        button {
+            border: 1px rgba(0, 0, 0, 0.445) solid;
+            border-radius: 3px;
+            padding: 5px;
+            font-weight: 600;
+        }
+    }
+}
+.friends {
+    &__title {
+        font-weight: 600;
+    }
+
+    &__list {
+        padding-top: 10px;
+        select {
+            border: 1px rgba(0, 0, 0, 0.445) solid;
+            border-radius: 3px;
+            width: 150px;
+        }
+    }
+}
+.gifts {
+    &__title {
+        font-weight: 600;
+    }
+
+    &__list {
+        padding-top: 10px;
+        select {
+            border: 1px rgba(0, 0, 0, 0.445) solid;
+            border-radius: 3px;
+            width: 150px;
+        }
+    }
+}
+.list {
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px rgba(0, 0, 0, 0.331) solid;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        button {
+            font-weight: 600;
+        }
+    }
+}
