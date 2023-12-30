@@ -3,7 +3,7 @@ import { defineStore } from 'pinia'
 import { useFriendStore } from './friends'
 import { useGiftsStore } from './gifts'
 
-export const useAssignmentGiftsStore = defineStore('AssignmentGifts', {
+export const useAssignmentGiftsStore = defineStore('assignmentGifts', {
     state: () => ({
         assignmentGiftsList: [],
     }),

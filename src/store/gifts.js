@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 //========================================================//
 import { useAssignmentGiftsStore } from './assignmentGifts'
-export const useGiftsStore = defineStore('Gifts', {
+export const useGiftsStore = defineStore('gifts', {
     state: () => ({
         giftsList: [
             {
